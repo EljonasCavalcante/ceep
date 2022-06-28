@@ -1,10 +1,14 @@
-import React from "react";
+import React from "react"; 
+import { FormularioCadastro } from "./components/FormularioCadastro";
+import ListaDeNotas from "./components/ListaDeNotas"
 
 function App() {
   return(
-     <h1>
-      Hello word
-     </h1>
+    <section>
+     <FormularioCadastro/>      
+     <ListaDeNotas/>
+    </section>
+
   );
 }
 

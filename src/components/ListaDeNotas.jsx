@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CardNota from "./CardNota";
 
- export default class LidaDeNotas extends Component {
+class LidaDeNotas extends Component {
     render(){
         return(
     <ul>
@@ -20,3 +20,5 @@ import CardNota from "./CardNota";
     }
     
 }
+
+export default LidaDeNotas;

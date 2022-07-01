@@ -4,10 +4,9 @@ class LidaDeNotas extends Component {
     render(){
         return(
     <ul>
-        {Array.of("Trablho", "Trablaho", "Estudo").map(categoria  => {
+        {Array.of("Trablho", "Trablaho", "Estudo").map((categoria, index)  => {
             return (
-                <li>
-                    <div>{categoria}</div>
+                <li key={index}>                    
                     <CardNota/>
                 </li>    
             ) 

@@ -5,20 +5,10 @@ class LidaDeNotas extends Component {
     render(){
         return(
     <ul>
-        <li>
-            <CardNota/>
-        </li>
-        <li>
-            <CardNota/>
-        </li>
-        <li>
-            <CardNota/>
-        </li>
-  </ul>
-
-);
-    }
-    
+        {Array.of("Trablho", "Trablaho", "Estudo").map()}   
+    </ul>
+    );
+    }    
 }
 
 export default LidaDeNotas;
